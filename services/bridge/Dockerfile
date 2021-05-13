@@ -1,4 +1,4 @@
-FROM php:7.4-cli
+FROM php:7.3.27-cli
 
 # Install packages and extensions
 RUN apt-get -qq update && \
