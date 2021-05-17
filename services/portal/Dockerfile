@@ -28,7 +28,7 @@ COPY portal/src/resources /src/resources
 RUN cd /src && npm run production
 
 # Build main image
-FROM php:7.4-apache
+FROM php:7.3.27-apache
 
 # Install packages and extensions
 RUN apt update
